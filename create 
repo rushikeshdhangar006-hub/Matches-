@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Matches</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background: green;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        .match {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        .live {
+            color: red;
+            font-weight: bold;
+        }
+
+        button {
+            background: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    🏏 Live Matches
+</header>
+
+<div class="match">
+    <h2>India vs Australia</h2>
+    <p>Status: <span class="live">LIVE</span></p>
+    <p>Score: India 145/3 (18 Overs)</p>
+    <button>Watch Match</button>
+</div>
+
+<div class="match">
+    <h2>England vs Pakistan</h2>
+    <p>Status: <span class="live">LIVE</span></p>
+    <p>Score: England 120/5 (16 Overs)</p>
+    <button>Watch Match</button>
+</div>
+
+</body>
+</html>
